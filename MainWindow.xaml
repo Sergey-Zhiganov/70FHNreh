@@ -1,0 +1,116 @@
+﻿<Window x:Class="ТЫндекс_Музыка.MainWindow"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ТЫндекс_Музыка"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="347" Width="316">
+    <Grid RenderTransformOrigin="0.494,0.491">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32*"/>
+            <RowDefinition Height="32*"/>
+            <RowDefinition Height="117*"/>
+            <RowDefinition Height="98*"/>
+            <RowDefinition Height="53*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="52*"/>
+            <ColumnDefinition Width="52*"/>
+            <ColumnDefinition Width="52*"/>
+            <ColumnDefinition Width="52*"/>
+            <ColumnDefinition Width="52*"/>
+            <ColumnDefinition Width="109*"/>
+        </Grid.ColumnDefinitions>
+        <Button
+            Style="{StaticResource MaterialDesignRaisedSecondaryLightButton}"
+            Content="Открыть файлы"
+            VerticalAlignment="Center"
+            Height="32" Grid.ColumnSpan="6" Grid.Row="1" Click="Chose_File"/>
+        <Button
+            Style="{StaticResource MaterialDesignRaisedSecondaryLightButton}"
+            Content="История"
+            VerticalAlignment="Center" Grid.ColumnSpan="6" Click="History_Show"/>
+        <ListBox x:Name="ListMusic" d:ItemsSource="{d:SampleData ItemCount=5}" Grid.Row="2" Grid.ColumnSpan="6" SelectionChanged="Start_Music"/>
+        <MediaElement x:Name="mediaElement" LoadedBehavior="Manual"/>
+        <Slider
+            Name="MusicSlider"
+            Minimum="0"
+            Maximum="0"
+            Value="0" Grid.Row="3" Grid.ColumnSpan="5" ValueChanged="MusicSlider_ValueChanged"/>
+        <Slider x:Name="Volume"
+              Orientation="Vertical"
+              Minimum="0"
+              Maximum="{Binding DiscreteVertical.Maximum}"
+              Value="3"
+              Style="{StaticResource MaterialDesignDiscreteSlider}"
+              TickFrequency="{Binding DiscreteVertical.TickFrequency}"
+              TickPlacement="Both" Grid.Row="2" Grid.Column="5" Grid.RowSpan="3" HorizontalAlignment="Left" Width="47" RenderTransformOrigin="0.5,0.5" Margin="46,116,0,0" ValueChanged="Volume_ValueChanged" >
+            <Slider.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Slider.RenderTransform>
+        </Slider>
+        <Button
+            Name ="PlayPause"
+            Click="PlayPause_Click"
+            Style="{StaticResource MaterialDesignIconButton}"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Width="38"
+            Height="32"
+            Grid.Row="4"
+            Grid.Column="2">
+            <materialDesign:PackIcon Name="Play" Kind="Play" Height="40" Width="40" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Button>
+        <Button
+            Style="{StaticResource MaterialDesignIconButton}"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Width="40"
+            Height="32"
+            Grid.Row="4"
+            Grid.Column="3"
+            Click="SkipNext">
+            <materialDesign:PackIcon Kind="SkipNext" Height="40" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button
+            Style="{StaticResource MaterialDesignIconButton}"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Width="40"
+            Height="32"
+            Grid.Row="4"
+            Grid.Column="1"
+            Click="SkipBackward">
+            <materialDesign:PackIcon Kind="SkipBackward" Height="40" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button
+            Style="{StaticResource MaterialDesignIconButton}"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Width="40"
+            Height="32"
+            Grid.Row="4"
+            Click="Repeat">
+            <materialDesign:PackIcon Kind="Refresh" Height="40" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button
+            Style="{StaticResource MaterialDesignIconButton}"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Width="40"
+            Height="32"
+            Grid.Column="4"
+            Grid.Row="4"
+            Click="Shuffle">
+            <materialDesign:PackIcon Kind="ShuffleVariant" Height="40" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Label x:Name="Music_label" HorizontalContentAlignment="Center" Grid.Column="3" Content="" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Center" Width="89" Grid.ColumnSpan="3" FontSize="14"/>
+    </Grid>
+</Window>

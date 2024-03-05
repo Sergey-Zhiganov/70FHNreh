@@ -1,0 +1,30 @@
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\bin\Debug\net8.0-windows\ТЫндекс Музыка.exe
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\bin\Debug\net8.0-windows\ТЫндекс Музыка.deps.json
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\bin\Debug\net8.0-windows\ТЫндекс Музыка.runtimeconfig.json
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\bin\Debug\net8.0-windows\ТЫндекс Музыка.dll
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\bin\Debug\net8.0-windows\ТЫндекс Музыка.pdb
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\ТЫндекс Музыка.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\ТЫндекс Музыка_MarkupCompile.cache
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\ТЫндекс Музыка_MarkupCompile.lref
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\ТЫндекс Музыка.g.resources
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\ТЫндекс Музыка.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\ТЫндекс Музыка.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\ТЫндекс Музыка.AssemblyInfo.cs
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\ТЫндекс Музыка.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\ТЫндекс .9206C23B.Up2Date
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\ТЫндекс Музыка.dll
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\refint\ТЫндекс Музыка.dll
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\ТЫндекс Музыка.pdb
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\ТЫндекс Музыка.genruntimeconfig.cache
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\ref\ТЫндекс Музыка.dll
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\App.baml
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\bin\Debug\net8.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\bin\Debug\net8.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\History.g.cs
+C:\Users\User\Desktop\МПТ\C#\ТЫндекс Музыка\obj\Debug\net8.0-windows\History.baml
